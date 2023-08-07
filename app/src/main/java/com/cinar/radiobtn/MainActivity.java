@@ -51,16 +51,5 @@ public class MainActivity extends AppCompatActivity {
             yazi.setText("Türkiye");
         }
     }
-    public  void group(View view){
-        if (seç1.isChecked()){
-            layout.setBackgroundColor(Color.BLUE);
-            resim.setImageResource(R.drawable.fb);
-            yazi.setText("Fenerbahçe");
-        }
-        else if(seç2.isChecked()){
-            layout.setBackgroundColor(Color.RED);
-            resim.setImageResource(R.drawable.tr);
-            yazi.setText("Türkiye");
-        }
-    }
+
 }
