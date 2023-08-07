@@ -43,12 +43,14 @@ public class MainActivity extends AppCompatActivity {
         if (seç1.isChecked()){
             layout.setBackgroundColor(Color.BLUE);
             resim.setImageResource(R.drawable.fb);
-            yazi.setText("Fenerbahçe");
+            yazi.setText("Fenerbahçe");            
+        Toast.makeText(getApplicationContext(),"Fenerbahçe checked",Toast.LENGTH_LONG).show();
         }
         else if(seç2.isChecked()){
             layout.setBackgroundColor(Color.RED);
             resim.setImageResource(R.drawable.tr);
             yazi.setText("Türkiye");
+                    Toast.makeText(getApplicationContext(),"Turkey checked",Toast.LENGTH_LONG).show();
         }
     }
 
